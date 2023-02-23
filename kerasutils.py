@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-from keras.preprocessing import image
+from tensorflow.keras.preprocessing import image
 
 
 def crop_resize_img(img_path, target_size, crop_amount):

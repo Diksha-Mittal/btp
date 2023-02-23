@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import keras
 from tenserflow.keras.preprocessing.image import load_img
-from derm7pt.utils import strings2numeric
-from derm7pt.kerasutils import crop_resize_img
+from btp.utils import strings2numeric
+from btp.kerasutils import crop_resize_img
 
 
 class Derm7PtDataset(object):
