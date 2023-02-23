@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import keras
-from tenserflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import load_img
 from btp.utils import strings2numeric
 from btp.kerasutils import crop_resize_img
 
